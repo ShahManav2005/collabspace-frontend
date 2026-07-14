@@ -14,7 +14,7 @@ function Header(){
   return(
     <header>
       <div className="header-left">
-        <div className="header-logo">🚀</div>
+        <img src="/favicon.png" alt="CollabSpace" className="header-logo-img" />
         <Link to="/" className="header-title">CollabSpace</Link>
       </div>
 
@@ -52,7 +52,7 @@ function Header(){
         ):(
           <>
             <Link to="/login" className="nav-link">Login</Link>
-            <Link to="/register" className = "hero-btn" style = {{padding : '8px 16px', fontSize : '13px'}}>
+            <Link to="/register" className = "header-register-btn"  >
             Register
             </Link>
           </>

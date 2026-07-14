@@ -38,7 +38,7 @@ function Register() {
     <div className="auth-container">
       <div className="auth-card">
         <div className="auth-header">
-          <div className="header-logo">🚀</div>
+          <img src="/favicon.png" alt="CollabSpace" className="auth-logo-img" />
           <h2>Create account</h2>
           <p>Join CollabSpace today</p>
         </div>
