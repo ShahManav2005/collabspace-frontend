@@ -3,7 +3,8 @@
 A full-stack team collaboration platform built with the MERN stack. CollabSpace lets teams manage workspaces, projects, tasks, and real-time team chat in one place.
 
 🔗 **Live Demo:** https://collabspace-frontend-zeta.vercel.app
-🔗 **Backend Repo:** https://github.com/YOUR_USERNAME/collabspace-api
+
+🔗 **Backend Repo:** https://github.com/ShahManav2005/collabspace-api
 
 ## Features
 - JWT-based authentication with protected routes
@@ -34,4 +35,6 @@ VITE_API_URL=http://localhost:5000/api
 \`\`\`
 
 ## Screenshots
-[Add 2-3 screenshots of your app here]
+![Login Page](docs/Login.png)
+![DashBoard](docs/HomeDashboard.png)
+![Workspace Chat](docs/WorkspaceChat.png)
