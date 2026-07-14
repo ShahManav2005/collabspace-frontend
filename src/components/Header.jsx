@@ -52,7 +52,7 @@ function Header(){
         ):(
           <>
             <Link to="/login" className="nav-link">Login</Link>
-            <Link to="/register" className = "hero-btn" style = {{padding : '8px 16px ', fontSize : '13px'}}>
+            <Link to="/register" className = "hero-btn" style = {{padding : '8px 16px', fontSize : '13px'}}>
             Register
             </Link>
           </>

@@ -1,16 +1,37 @@
-# React + Vite
+# CollabSpace — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack team collaboration platform built with the MERN stack. CollabSpace lets teams manage workspaces, projects, tasks, and real-time team chat in one place.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://collabspace-frontend-zeta.vercel.app
+🔗 **Backend Repo:** https://github.com/YOUR_USERNAME/collabspace-api
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- JWT-based authentication with protected routes
+- Workspace creation and member management
+- Project and task management with Kanban-style status tracking
+- Real-time team directory with search and filtering
+- Workspace-based team chat
+- Role-based access control (admin/member/viewer)
 
-## React Compiler
+## Tech Stack
+- React 18 + Vite
+- React Router for navigation
+- Axios with interceptors for API calls
+- Context API for global auth state
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+\`\`\`bash
+git clone https://github.com/YOUR_USERNAME/collabspace-frontend
+cd collabspace-frontend
+npm install
+npm run dev
+\`\`\`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create a `.env` file:
+\`\`\`
+VITE_API_URL=http://localhost:5000/api
+\`\`\`
+
+## Screenshots
+[Add 2-3 screenshots of your app here]
