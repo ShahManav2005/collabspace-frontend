@@ -32,6 +32,7 @@ function Login() {
     }
 
     return(
+        
         <div className="auth-container">
             <div className="auth-card">
                 <div className="auth-header">
@@ -66,7 +67,7 @@ function Login() {
                     </div>
 
                     <button type="submit" className ='auth-btn' disabled={loading}>
-                        {loading ? 'Logging in...' : 'Login'}
+                        {loading ? 'Connecting... (may take 30s on first request)' : 'Login'}
                     </button>
                 </form>
 

@@ -92,13 +92,14 @@ function Register() {
           </div>
 
           <button type="submit" className="auth-btn" disabled={loading}>
-            {loading ? 'Creating account...' : 'Register'}
+            {loading ? 'Connecting... (may take 30s on first request)' : 'Register'}
           </button>
         </form>
 
         <p className="auth-switch">
           Already have an account? <Link to="/login">Login</Link>
         </p>
+        
       </div>
     </div>
   )
